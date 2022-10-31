@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+
+
+  mail:
+    host: smtp.mailtrap.io
+    port: 25
+    username: 78a9f2cc45ac40
+    password: 3fa43f72b8e727
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

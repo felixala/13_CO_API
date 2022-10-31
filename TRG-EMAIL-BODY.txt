@@ -1,0 +1,11 @@
+Hi {FULL_NAME},<br />
+<br />
+Attached is your Insurance Report.<br />
+<br />
+Please find what plan Insurance you qualify<br />
+<br />
+<br />
+<a href="{URL}">Click here to download report directly.</a><br />
+<br />
+Thanks,
+Admin Team
